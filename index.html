@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beverages Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .category {
+            background-color: #fff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .category h2 {
+            color: #333;
+        }
+        .beverages-list {
+            list-style: none;
+            padding: 0;
+        }
+        .beverages-list li {
+            padding: 8px;
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .beverages-list li:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>hi  sai eswar welcome to hcl </h1>
+    <header>
+        <h1>Welcome to Our Beverages Menu</h1>
+    </header>
+
+    <div class="container">
+        <div class="category">
+            <h2>Hot Drinks</h2>
+            <ul class="beverages-list">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Hot Chocolate</li>
+                <li>Latte</li>
+                <li>Espresso</li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>Cold Drinks</h2>
+            <ul class="beverages-list">
+                <li>Iced Coffee</li>
+                <li>Iced Tea</li>
+                <li>Cold Brew</li>
+                <li>Lemonade</li>
+                <li>Ice-cold Soda</li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>Smoothies</h2>
+            <ul class="beverages-list">
+                <li>Strawberry Smoothie</li>
+                <li>Mango Smoothie</li>
+                <li>Banana Smoothie</li>
+                <li>Green Smoothie</li>
+                <li>Berry Blend</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Beverages Delight | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
