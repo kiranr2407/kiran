@@ -43,12 +43,20 @@
             background-color: #f9f9f9;
             margin: 5px 0;
             border-radius: 5px;
+            display: flex;
+            align-items: center;
         }
         .beverages-list li:nth-child(even) {
             background-color: #f1f1f1;
         }
+        .beverages-list img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
         .price {
-            float: right;
+            margin-left: auto;
             font-weight: bold;
             color: #333;
         }
@@ -78,24 +86,39 @@
             <h2>Beers</h2>
             <ul class="beverages-list">
                 <li>
-                    Lager <span class="price">$4.99</span>
-                    <div class="flavors">Flavors: Crisp, Light</div>
+                    <img src="beer-lager.jpg" alt="Lager Beer">
+                    <div>
+                        <strong>Lager</strong> <span class="price">$4.99</span>
+                        <div class="flavors">Flavors: Crisp, Light</div>
+                    </div>
                 </li>
                 <li>
-                    IPA <span class="price">$5.49</span>
-                    <div class="flavors">Flavors: Bitter, Hoppy</div>
+                    <img src="beer-ipa.jpg" alt="IPA Beer">
+                    <div>
+                        <strong>IPA</strong> <span class="price">$5.49</span>
+                        <div class="flavors">Flavors: Bitter, Hoppy</div>
+                    </div>
                 </li>
                 <li>
-                    Stout <span class="price">$6.00</span>
-                    <div class="flavors">Flavors: Rich, Coffee</div>
+                    <img src="beer-stout.jpg" alt="Stout Beer">
+                    <div>
+                        <strong>Stout</strong> <span class="price">$6.00</span>
+                        <div class="flavors">Flavors: Rich, Coffee</div>
+                    </div>
                 </li>
                 <li>
-                    Wheat Beer <span class="price">$5.20</span>
-                    <div class="flavors">Flavors: Smooth, Citrus</div>
+                    <img src="beer-wheat.jpg" alt="Wheat Beer">
+                    <div>
+                        <strong>Wheat Beer</strong> <span class="price">$5.20</span>
+                        <div class="flavors">Flavors: Smooth, Citrus</div>
+                    </div>
                 </li>
                 <li>
-                    Pilsner <span class="price">$5.00</span>
-                    <div class="flavors">Flavors: Crisp, Clean</div>
+                    <img src="beer-pilsner.jpg" alt="Pilsner Beer">
+                    <div>
+                        <strong>Pilsner</strong> <span class="price">$5.00</span>
+                        <div class="flavors">Flavors: Crisp, Clean</div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -105,24 +128,39 @@
             <h2>Wines</h2>
             <ul class="beverages-list">
                 <li>
-                    Red Wine <span class="price">$12.99</span>
-                    <div class="flavors">Flavors: Fruity, Bold</div>
+                    <img src="wine-red.jpg" alt="Red Wine">
+                    <div>
+                        <strong>Red Wine</strong> <span class="price">$12.99</span>
+                        <div class="flavors">Flavors: Fruity, Bold</div>
+                    </div>
                 </li>
                 <li>
-                    White Wine <span class="price">$10.50</span>
-                    <div class="flavors">Flavors: Crisp, Light</div>
+                    <img src="wine-white.jpg" alt="White Wine">
+                    <div>
+                        <strong>White Wine</strong> <span class="price">$10.50</span>
+                        <div class="flavors">Flavors: Crisp, Light</div>
+                    </div>
                 </li>
                 <li>
-                    Rosé <span class="price">$14.00</span>
-                    <div class="flavors">Flavors: Floral, Refreshing</div>
+                    <img src="wine-rose.jpg" alt="Rosé Wine">
+                    <div>
+                        <strong>Rosé</strong> <span class="price">$14.00</span>
+                        <div class="flavors">Flavors: Floral, Refreshing</div>
+                    </div>
                 </li>
                 <li>
-                    Sparkling Wine <span class="price">$18.00</span>
-                    <div class="flavors">Flavors: Crisp, Bubbly</div>
+                    <img src="wine-sparkling.jpg" alt="Sparkling Wine">
+                    <div>
+                        <strong>Sparkling Wine</strong> <span class="price">$18.00</span>
+                        <div class="flavors">Flavors: Crisp, Bubbly</div>
+                    </div>
                 </li>
                 <li>
-                    Dessert Wine <span class="price">$16.50</span>
-                    <div class="flavors">Flavors: Sweet, Rich</div>
+                    <img src="wine-dessert.jpg" alt="Dessert Wine">
+                    <div>
+                        <strong>Dessert Wine</strong> <span class="price">$16.50</span>
+                        <div class="flavors">Flavors: Sweet, Rich</div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -132,24 +170,39 @@
             <h2>Rum Products</h2>
             <ul class="beverages-list">
                 <li>
-                    White Rum <span class="price">$20.00</span>
-                    <div class="flavors">Flavors: Smooth, Light</div>
+                    <img src="rum-white.jpg" alt="White Rum">
+                    <div>
+                        <strong>White Rum</strong> <span class="price">$20.00</span>
+                        <div class="flavors">Flavors: Smooth, Light</div>
+                    </div>
                 </li>
                 <li>
-                    Dark Rum <span class="price">$22.50</span>
-                    <div class="flavors">Flavors: Bold, Spicy</div>
+                    <img src="rum-dark.jpg" alt="Dark Rum">
+                    <div>
+                        <strong>Dark Rum</strong> <span class="price">$22.50</span>
+                        <div class="flavors">Flavors: Bold, Spicy</div>
+                    </div>
                 </li>
                 <li>
-                    Spiced Rum <span class="price">$21.00</span>
-                    <div class="flavors">Flavors: Sweet, Cinnamon</div>
+                    <img src="rum-spiced.jpg" alt="Spiced Rum">
+                    <div>
+                        <strong>Spiced Rum</strong> <span class="price">$21.00</span>
+                        <div class="flavors">Flavors: Sweet, Cinnamon</div>
+                    </div>
                 </li>
                 <li>
-                    Coconut Rum <span class="price">$18.00</span>
-                    <div class="flavors">Flavors: Tropical, Creamy</div>
+                    <img src="rum-coconut.jpg" alt="Coconut Rum">
+                    <div>
+                        <strong>Coconut Rum</strong> <span class="price">$18.00</span>
+                        <div class="flavors">Flavors: Tropical, Creamy</div>
+                    </div>
                 </li>
                 <li>
-                    Flavored Rum <span class="price">$23.00</span>
-                    <div class="flavors">Flavors: Mango, Pineapple</div>
+                    <img src="rum-flavored.jpg" alt="Flavored Rum">
+                    <div>
+                        <strong>Flavored Rum</strong> <span class="price">$23.00</span>
+                        <div class="flavors">Flavors: Mango, Pineapple</div>
+                    </div>
                 </li>
             </ul>
         </div>
